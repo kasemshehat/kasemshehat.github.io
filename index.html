@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>قاسم شحاتة حسن | Kasem Shehata Hassan — مبرمج ومطور تطبيقات</title>
+<meta name="description" content="قاسم شحاتة حسن (Kasem Shehata Hassan) — مبرمج ومطور تطبيقات من بني مزار، محافظة المنيا، مصر. مهتم بالأمن السيبراني ولغة بايثون، ومطوّر تطبيق بني مزار أونلاين. بعمل إعلانات فيديو احترافية للمحلات والمشاريع الصغيرة.">
+<meta name="keywords" content="قاسم شحاتة حسن, قاسم شحاته حسن, Kasem Shehata Hassan, مبرمج, مطور تطبيقات, أمن سيبراني, بايثون, بني مزار أونلاين, سما اكسبرس, ديكوريشن السفير, إعلانات فيديو, سيستم كاشير, تصميم مواقع, بني مزار">
+<meta property="og:title" content="قاسم شحاتة حسن | Kasem Shehata Hassan — مبرمج ومطور تطبيقات">
+<meta property="og:description" content="مبرمج ومطور تطبيقات من بني مزار، المنيا. أمن سيبراني وبايثون. مطوّر تطبيق بني مزار أونلاين، وبعمل إعلانات فيديو للمحلات.">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://kasemshehat.github.io/">
+<meta property="og:locale" content="ar_EG">
+<link rel="canonical" href="https://kasemshehat.github.io/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "قاسم شحاتة حسن",
+  "alternateName": ["قاسم شحاته حسن", "Kasem Shehata Hassan"],
+  "jobTitle": "مبرمج ومطور تطبيقات",
+  "description": "مبرمج ومطور تطبيقات من بني مزار، محافظة المنيا، مصر. مهتم بالأمن السيبراني ولغة بايثون. مطوّر تطبيق بني مزار أونلاين، ويقدّم خدمة إعلانات فيديو للمحلات.",
+  "knowsAbout": ["تطوير التطبيقات", "البرمجة", "الأمن السيبراني", "بايثون", "Python", "Cybersecurity", "App Development", "إعلانات الفيديو", "تطوير المواقع", "أنظمة الكاشير"],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "بني مزار",
+    "addressRegion": "المنيا",
+    "addressCountry": "EG"
+  },
+  "sameAs": ["https://www.youtube.com/channel/UCMF2rmrki27aCySYpCmod0A"],
+  "url": "https://kasemshehat.github.io/"
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a1017;
+    --bg2: #0e1722;
+    --card: #12202e;
+    --line: #1e2f40;
+    --text: #ecf2f8;
+    --muted: #a4b6c8;
+    --accent: #34d399;
+    --accent-dim: #7fd4bb;
+    --green: #22c15e;
+    --radius: 18px;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { font-family:'Cairo',sans-serif; background:var(--bg); color:var(--text); line-height:1.9; overflow-x:hidden; }
+  .wrap { max-width:920px; margin:0 auto; padding:0 22px; }
+
+  /* ===== Nav ===== */
+  nav { position:sticky; top:0; z-index:50; background:rgba(10,16,23,.82); backdrop-filter:blur(12px); -webkit-backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+  nav .wrap { display:flex; align-items:center; justify-content:space-between; padding-top:13px; padding-bottom:13px; }
+  .brand { font-weight:800; font-size:17.5px; letter-spacing:-.2px; }
+  .brand span { color:var(--accent); }
+  nav .links { display:flex; gap:22px; align-items:center; }
+  nav a { color:var(--muted); text-decoration:none; font-size:14.5px; font-weight:600; transition:color .2s; }
+  nav a:hover { color:var(--text); }
+  nav .cta-mini { background:var(--green); color:#062b16; padding:8px 20px; border-radius:999px; font-weight:800; transition:background .2s, transform .2s; }
+  nav .cta-mini:hover { color:#062b16; background:#2bd86b; transform:translateY(-1px); }
+  @media (max-width:640px){ nav .links a:not(.cta-mini){ display:none; } }
+
+  /* ===== Hero ===== */
+  header.hero { position:relative; overflow:hidden; padding:96px 0 80px; text-align:center; background:var(--bg2); border-bottom:1px solid var(--line); }
+  .hero-bg { position:absolute; inset:0; pointer-events:none; }
+  .blob { position:absolute; border-radius:50%; filter:blur(90px); opacity:.35; animation:float 12s ease-in-out infinite; }
+  .blob.b1 { width:420px; height:420px; background:#0e7a5f; top:-140px; right:-80px; }
+  .blob.b2 { width:360px; height:360px; background:#1d4ed8; bottom:-160px; left:-100px; animation-delay:-6s; opacity:.22; }
+  .hero-grid { position:absolute; inset:0; background-image:linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px); background-size:44px 44px; mask-image:radial-gradient(600px 320px at 50% 0, #000 30%, transparent 75%); -webkit-mask-image:radial-gradient(600px 320px at 50% 0, #000 30%, transparent 75%); }
+  @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(24px); } }
+  header.hero .wrap { position:relative; }
+  .avatar { width:110px; height:110px; margin:0 auto 24px; border-radius:34px;
+    background:linear-gradient(135deg,#10b981,#0a5c48);
+    display:flex; align-items:center; justify-content:center; font-size:46px; font-weight:900; color:#fff;
+    box-shadow:0 16px 40px rgba(16,185,129,.3), inset 0 1px 0 rgba(255,255,255,.18); }
+  h1 { font-size:clamp(32px,7vw,50px); font-weight:900; line-height:1.25; margin-bottom:6px; }
+  .latin { color:var(--muted); font-size:16px; font-weight:600; direction:ltr; }
+  .role { margin-top:16px; font-size:clamp(18px,3.5vw,22px); font-weight:800; color:var(--accent-dim); }
+  .tags { margin-top:22px; display:flex; flex-wrap:wrap; gap:10px; justify-content:center; }
+  .tag { background:rgba(18,32,46,.8); border:1px solid var(--line); color:var(--accent-dim); padding:7px 18px; border-radius:999px; font-size:14.5px; font-weight:600; }
+  .hero-btns { margin-top:34px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:14px 34px; border-radius:999px; font-weight:800; font-size:16px; text-decoration:none; transition:transform .2s, box-shadow .2s, background .2s; }
+  .btn-primary { background:var(--green); color:#062b16; box-shadow:0 10px 28px rgba(34,193,94,.3); }
+  .btn-primary:hover { background:#2bd86b; transform:translateY(-2px); }
+  .btn-ghost { border:1px solid var(--line); color:var(--text); }
+  .btn-ghost:hover { border-color:var(--accent); transform:translateY(-2px); }
+
+  /* ===== Sections ===== */
+  section { padding:72px 0; border-bottom:1px solid var(--line); }
+  .sec-head { display:flex; align-items:center; gap:12px; margin-bottom:8px; }
+  .sec-head::before { content:''; width:5px; height:28px; border-radius:3px; background:linear-gradient(180deg,var(--accent),#0e7a5f); }
+  h2 { font-size:clamp(23px,4.5vw,28px); font-weight:800; }
+  .sec-sub { color:var(--muted); font-size:15px; margin-bottom:26px; }
+  p { color:var(--muted); margin-bottom:12px; }
+  .en { direction:ltr; text-align:right; font-size:14.5px; color:#7d8fa3; }
+
+  /* reveal animation */
+  .reveal { opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+  .reveal.in { opacity:1; transform:none; }
+  @media (prefers-reduced-motion: reduce) { .reveal { opacity:1; transform:none; transition:none; } .blob { animation:none; } }
+
+  /* ===== About skills ===== */
+  .skills { display:grid; gap:12px; margin-top:22px; grid-template-columns:repeat(2,1fr); }
+  @media (min-width:700px){ .skills { grid-template-columns:repeat(4,1fr); } }
+  .skill { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .skill small { display:block; color:#7d8fa3; font-size:12.5px; margin-bottom:2px; }
+  .skill b { color:var(--accent); font-size:15.5px; }
+
+  /* ===== Projects ===== */
+  .grid { display:grid; gap:18px; }
+  @media (min-width:700px){ .grid.two { grid-template-columns:1fr 1fr; } }
+  .proj { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; transition:border-color .25s, transform .25s; }
+  .proj:hover { border-color:#2c4a5f; transform:translateY(-3px); }
+  .proj-art { height:150px; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; }
+  .proj-art svg { width:72px; height:72px; position:relative; z-index:1; }
+  .art-1 { background:linear-gradient(135deg,#0e3a30,#0a2a24); }
+  .art-2 { background:linear-gradient(135deg,#12284a,#0d1c36); }
+  .art-3 { background:linear-gradient(135deg,#3a2410,#2a1a0c); }
+  .art-4 { background:linear-gradient(135deg,#3a0f1e,#280a14); }
+  .proj-art::after { content:''; position:absolute; inset:0; background-image:linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px); background-size:26px 26px; }
+  .proj-body { padding:20px 22px 22px; }
+  .badge { display:inline-block; background:rgba(52,211,153,.12); color:var(--accent); font-size:12.5px; font-weight:700; padding:3px 12px; border-radius:999px; margin-bottom:10px; }
+  .proj h3 { font-size:18.5px; margin-bottom:6px; color:#fff; }
+  .proj p { margin-bottom:0; font-size:15px; }
+
+  /* ===== Pricing ===== */
+  .plans { display:grid; gap:18px; }
+  @media (min-width:700px){ .plans { grid-template-columns:repeat(3,1fr); } }
+  .plan { background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px 24px; display:flex; flex-direction:column; transition:border-color .25s, transform .25s; }
+  .plan:hover { transform:translateY(-3px); border-color:#2c4a5f; }
+  .plan.featured { border-color:var(--accent); position:relative; box-shadow:0 14px 36px rgba(52,211,153,.12); }
+  .plan .top-badge { position:absolute; top:-13px; right:24px; background:var(--accent); color:#062b16; font-size:12.5px; font-weight:800; padding:3px 14px; border-radius:999px; }
+  .plan h3 { font-size:18px; }
+  .plan .amount { font-size:34px; font-weight:900; color:#fff; margin:10px 0 4px; }
+  .plan .amount small { font-size:14px; color:var(--muted); font-weight:600; }
+  .plan ul { list-style:none; margin-top:14px; }
+  .plan li { color:var(--muted); font-size:14.5px; margin-bottom:9px; padding-right:22px; position:relative; }
+  .plan li::before { content:'✓'; position:absolute; right:0; color:var(--accent); font-weight:800; }
+  .note { margin-top:18px; font-size:13.5px; color:#7d8fa3; }
+
+  /* ===== FAQ ===== */
+  details { background:var(--card); border:1px solid var(--line); border-radius:14px; margin-bottom:12px; overflow:hidden; }
+  summary { cursor:pointer; padding:18px 22px; font-weight:700; font-size:16px; list-style:none; position:relative; padding-left:48px; }
+  summary::-webkit-details-marker { display:none; }
+  summary::after { content:'+'; position:absolute; left:20px; top:50%; transform:translateY(-50%); color:var(--accent); font-size:22px; font-weight:700; transition:transform .2s; }
+  details[open] summary::after { transform:translateY(-50%) rotate(45deg); }
+  details p { padding:0 22px 18px; margin:0; font-size:15px; }
+
+  /* ===== CTA / footer ===== */
+  .cta { text-align:center; padding:80px 0; border-bottom:none; position:relative; overflow:hidden; background:var(--bg2); }
+  .cta .blob { opacity:.25; }
+  .cta .wrap { position:relative; }
+  .wa-btn { display:inline-block; background:var(--green); color:#062b16; font-weight:900; font-size:19px; padding:17px 48px; border-radius:999px; text-decoration:none; margin-top:16px; box-shadow:0 12px 34px rgba(34,193,94,.32); transition:transform .2s, background .2s; }
+  .wa-btn:hover { background:#2bd86b; transform:translateY(-2px); }
+  footer { text-align:center; color:#5b6b7c; font-size:14px; padding:30px 0 44px; }
+  footer .fnav { margin-bottom:10px; display:flex; gap:20px; justify-content:center; }
+  footer .fnav a { color:#7d8fa3; text-decoration:none; font-size:13.5px; }
+  footer .fnav a:hover { color:var(--text); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">قاسم شحاتة <span>حسن</span></div>
+    <div class="links">
+      <a href="#about">عنّي</a>
+      <a href="#projects">مشاريعي</a>
+      <a href="#services">الخدمات</a>
+      <a href="#faq">أسئلة شائعة</a>
+      <a class="cta-mini" href="https://wa.me/201114316430" target="_blank" rel="noopener">تواصل</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="hero-bg">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="wrap">
+    <div class="avatar">ق</div>
+    <h1>قاسم شحاتة حسن</h1>
+    <div class="latin">Kasem Shehata Hassan &middot; قاسم شحاته حسن</div>
+    <div class="role">مبرمج ومطور تطبيقات</div>
+    <div class="tags">
+      <span class="tag">الأمن السيبراني</span>
+      <span class="tag">Python &middot; بايثون</span>
+      <span class="tag">تطوير تطبيقات الموبايل</span>
+      <span class="tag">إعلانات الفيديو</span>
+    </div>
+    <div class="hero-btns">
+      <a class="btn btn-primary" href="https://wa.me/201114316430" target="_blank" rel="noopener">كلمّني على واتساب</a>
+      <a class="btn btn-ghost" href="#projects">شوف شغلي</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="wrap reveal">
+    <div class="sec-head"><h2>مين أنا؟</h2></div>
+    <p>أنا قاسم شحاتة حسن، مبرمج ومطور تطبيقات من بني مزار، محافظة المنيا. بشتغل بلغة بايثون ومهتم بمجال الأمن السيبراني، وبحب أحوّل الأفكار لحاجات حقيقية الناس تستخدمها. طوّرت تطبيقات بتخدم أهل بلدي وبيزنس حقيقي، وبقدّم خدمة إعلانات فيديو للمحلات والمشاريع الصغيرة.</p>
+    <p class="en">I am Kasem Shehata Hassan, a programmer and app developer from Beni Mazar, Minya, Egypt. I work with Python and I am into cybersecurity.</p>
+    <div class="skills">
+      <div class="skill"><small>لغة البرمجة</small><b>Python</b></div>
+      <div class="skill"><small>المجال</small><b>تطوير التطبيقات</b></div>
+      <div class="skill"><small>اهتمام</small><b>الأمن السيبراني</b></div>
+      <div class="skill"><small>المكان</small><b>بني مزار، المنيا</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal"><h2>مشاريعي</h2></div>
+    <p class="sec-sub reveal">تطبيقات ومشاريع من تطويري، بتخدم ناس وبيزنس حقيقي.</p>
+    <div class="grid two">
+      <div class="proj reveal">
+        <div class="proj-art art-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l1.5-5h15L21 9"/><path d="M4 9v11h16V9"/><path d="M9 20v-6h6v6"/><path d="M3 9h18"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <span class="badge">تطبيق</span>
+          <h3>بني مزار أونلاين</h3>
+          <p>تطبيق من تطويري بيخدم أهل بني مزار والمنطقة: دليل للمحلات والخدمات، ومساحة توصل الناس ببعض. التسجيل فيه مجانًا لأي محل.</p>
+        </div>
+      </div>
+      <div class="proj reveal">
+        <div class="proj-art art-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <span class="badge">تطبيق</span>
+          <h3>سما اكسبرس</h3>
+          <p>تطبيق شحن دولي من تطويري.</p>
+        </div>
+      </div>
+      <div class="proj reveal">
+        <div class="proj-art art-3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M9 20v-5h6v5"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <span class="badge">تطبيق</span>
+          <h3>ديكوريشن السفير</h3>
+          <p>تطبيق لشركة تشطيبات وديكور من تطويري: استلام البيت على الطوب والتسليم على المفتاح.</p>
+        </div>
+      </div>
+      <div class="proj reveal">
+        <div class="proj-art art-4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fb7185" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9l5 3-5 3z" fill="#fb7185" stroke="none"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <span class="badge">قناة يوتيوب</span>
+          <h3>دقيقة تك</h3>
+          <p>محتوى تقني مبسّط بالمصري: شروحات موبايلات وتطبيقات وحاجات تفيدك في يومك.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal"><h2>خدمات البرمجة والتطوير</h2></div>
+    <p class="sec-sub reveal">بنفّذ مشروعك من الأول للآخر: نتكلم في فكرتك، نتفق على التفاصيل، وأنا أكمّل شغل البرمجة كامل.</p>
+    <div class="grid two">
+      <div class="proj reveal">
+        <div class="proj-art art-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20h8"/><path d="M12 16v4"/><path d="M7 9h6"/><path d="M7 12h10"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <span class="badge">برمجة</span>
+          <h3>سيستم كاشير (POS)</h3>
+          <p>سيستم كاشير من تطويري لمحلك أو مشروعك، بنظبطه على طبيعة شغلك بالظبط. السعر حسب المشروع — ابعتلي التفاصيل على واتساب.</p>
+        </div>
+      </div>
+      <div class="proj reveal">
+        <div class="proj-art art-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>
+          </svg>
+        </div>
+        <div class="proj-body">
+          <span class="badge">برمجة</span>
+          <h3>موقع إلكتروني (ويب سايت)</h3>
+          <p>موقع إلكتروني احترافي لمشروعك أو شركتك، بتصميم نضيف بيشتغل على الموبايل والكمبيوتر — زي الموقع اللي انت بتشوفه ده. السعر حسب المشروع.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ads">
+  <div class="wrap">
+    <div class="sec-head reveal"><h2>خدمة إعلانات الفيديو للمحلات</h2></div>
+    <p class="sec-sub reveal">بعمل إعلانات فيديو احترافية للمحلات والمشاريع الصغيرة: فيديو قصير جذاب بصوت تعليق وترجمة، يعرّف الناس على محلك ومنتجاتك. ابعتلي صور منتجاتك على واتساب وأسلّمك الإعلان جاهز.</p>
+    <div class="plans">
+      <div class="plan reveal">
+        <h3>فيديو إعلاني</h3>
+        <div class="amount">٣٠٠ <small>جنيه</small></div>
+        <ul>
+          <li>فيديو ٣٠-٤٠ ثانية</li>
+          <li>صوت تعليق وترجمة</li>
+          <li>تعديل واحد مجاني</li>
+          <li>التسليم على واتساب</li>
+        </ul>
+      </div>
+      <div class="plan featured reveal">
+        <span class="top-badge">الأكثر طلبًا</span>
+        <h3>فيديو + نشر</h3>
+        <div class="amount">٤٥٠ <small>جنيه</small></div>
+        <ul>
+          <li>كل مميزات الفيديو الإعلاني</li>
+          <li>نشر على صفحة بني مزار أونلاين</li>
+          <li>نشر على تيك توك</li>
+        </ul>
+      </div>
+      <div class="plan reveal">
+        <h3>اشتراك شهري</h3>
+        <div class="amount">١٢٠٠ <small>جنيه</small></div>
+        <ul>
+          <li>٤ فيديوهات في الشهر</li>
+          <li>نشر مستمر</li>
+          <li>إضافة محلك للتطبيق مجانًا</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note reveal">الدفع مقدم أو نصه قبل بدء الشغل. الأسعار قابلة للتعديل حسب طلبك.</p>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal"><h2>أسئلة شائعة</h2></div>
+    <p class="sec-sub reveal">إجابات سريعة على أكثر الحاجات اللي بتتسأل.</p>
+    <details class="reveal">
+      <summary>إزاي أطلب إعلان لمحلي؟</summary>
+      <p>ابعتلي على واتساب صور منتجاتك وتفاصيل محلك، وأنا أجهزلك الإعلان وأسلّمهولك جاهز على واتساب.</p>
+    </details>
+    <details class="reveal">
+      <summary>أنا مش من بني مزار، ممكن تخدمني؟</summary>
+      <p>أيوه طبعًا. الشغل كله أونلاين: تبعتلي الصور والتفاصيل، وأستلمك الإعلان أين كنت.</p>
+    </details>
+    <details class="reveal">
+      <summary>نظام الدفع إيه؟</summary>
+      <p>الدفع مقدم أو نصه قبل بدء الشغل، والباقي عند التسليم.</p>
+    </details>
+    <details class="reveal">
+      <summary>هل الإعلان يضمنلي مبيعات؟</summary>
+      <p>مفيش حد يقدر يضمن مبيعات أو أرقام مشاهدات. اللي أقدمهولك إعلان احترافي يعرّف الناس على محلك ويزود فرص وصولك لزبائن جداد.</p>
+    </details>
+    <details class="reveal">
+      <summary>عندي فكرة تطبيق أو موقع أو سيستم كاشير، تقدر تنفذها؟</summary>
+      <p>ابعتلي فكرتك على واتساب ونتكلم في التفاصيل والتكلفة والوقت المناسب، وأنا أكمّل شغل البرمجة كامل.</p>
+    </details>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="hero-bg">
+    <div class="blob b1"></div>
+    <div class="hero-grid"></div>
+  </div>
+  <div class="wrap reveal">
+    <div class="sec-head" style="justify-content:center"><h2>تواصل معايا</h2></div>
+    <p>عايز إعلان لمحلك، أو عندك فكرة تطبيق أو مشروع؟ ابعتلي على واتساب وهرد عليك بنفسي.</p>
+    <a class="wa-btn" href="https://wa.me/201114316430" target="_blank" rel="noopener">كلمّني على واتساب</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fnav">
+      <a href="#about">عنّي</a>
+      <a href="#projects">مشاريعي</a>
+      <a href="#services">الخدمات</a>
+      <a href="#faq">أسئلة شائعة</a>
+    </div>
+    قاسم شحاتة حسن &middot; Kasem Shehata Hassan &middot; بني مزار، المنيا، مصر
+  </div>
+</footer>
+
+<script>
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
